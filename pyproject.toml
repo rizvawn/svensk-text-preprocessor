@@ -1,0 +1,15 @@
+[project]
+name = "svensk-text-preprocessor"
+version = "0.1.0"
+description = "A foundational Python library for cleaning and normalizing Swedish text"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "faker>=20.0.0",
+]
+
+[project.optional-dependencies]
+dev= [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
